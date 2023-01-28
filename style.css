@@ -1,0 +1,149 @@
+@import url('https://fonts.google.com/specimen/Outfit');
+*{
+    font-family: 'Outfit', sans-serif;
+}
+html,body{
+    padding: 0 auto;
+    margin: 0 auto;
+
+    width: 100%;
+    max-width: 100vw;
+
+    height: 100%;
+    max-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+.container{
+    width: 100%;
+    max-width: 100vw;
+
+    height: 100%;
+    max-height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    border-radius: 15px;
+    position: relative;
+    width: 25em;
+    height: 40em;
+    background-color: hsl(216, 50%, 16%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product{
+    border-radius: 15px;
+    position: absolute;
+    top: 2em;
+ 
+}
+.title {
+    position: absolute;
+    font-size: 20px;
+    top: 17em;
+    left: 2.5em;
+    font-weight: 600;
+    color: white;
+}
+.card p{
+    position: absolute;
+    font-size: 18px;
+    width: 348px;
+    top: 21em;
+    left: 2.7em;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    line-height: 25px;
+}
+.ethereum{
+    position: absolute;
+
+    top: 32em;
+    left: 3em;
+
+}
+.card h2{
+    position: absolute;
+    font-size: 18px;
+    width: 348px;
+    top: 27.5em;
+    left: 3.7em;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    line-height: 25px;
+
+
+}
+.clock{
+    position: absolute;
+    top: 32em;
+    left: 16em;
+
+}
+.time{
+    font-size: 18px;
+    font-weight:400;
+    position: absolute;
+    top: 27.4em;
+    width: 100px;
+    left: 15.5em;
+    color: hsl(215, 51%, 70%);
+}
+.avatar{
+    
+    position: absolute;
+    top: 36em;
+    left: 3em;
+
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.name{
+    position: absolute;
+    font-size: 16px;
+    top: 36.1em;
+    left: 6em;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+.name a{
+    color: #fff;
+}
+.card span{
+    position: absolute;
+    top: 35em;
+    width: 320px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+.viewer{
+    position: absolute;
+    border-radius: 15px;
+    top:2em;
+    height: 300px;
+    width: 300px;
+    background-color: hsla(178, 100%, 50%,0.5);
+    justify-content: center;
+    align-items: center;
+
+} 
+.view{
+    position: absolute;
+    top: 130px;
+    left: 130px;
+}
+.view:hover{
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+.title:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+.name a:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
